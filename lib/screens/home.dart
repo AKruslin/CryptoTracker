@@ -29,11 +29,17 @@ class HomeScreen extends StatelessWidget {
             );
           }
           if (state is ConnectionError) {
-            return Center(
-              child: Text("Please check your internet connection."),
+            return Expanded(
+              child: Center(
+                child: Text("Please check your internet connection."),
+              ),
             );
           }
-          return Center(child: CircularProgressIndicator());
+          return Expanded(
+            child: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
         })
       ],
     );

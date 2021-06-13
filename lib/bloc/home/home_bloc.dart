@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:crypto_tracker/screens/home.dart';
 import 'package:crypto_tracker/services/restClient.dart';
 import 'package:meta/meta.dart';
 

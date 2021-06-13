@@ -7,9 +7,7 @@ class HomeInitial extends HomeState {}
 
 class HistoryDownloaded extends HomeState {
   final Map<String, dynamic> history;
-  HistoryDownloaded({
-    required this.history,
-  });
+  HistoryDownloaded({required this.history});
 }
 
 class ConnectionError extends HomeState {}
